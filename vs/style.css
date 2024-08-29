@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #29ff89;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.container{
+    display: block;
+    background-color: rgb(54, 54, 54);
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 40px 20px 40px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    max-width: 500px;
+    min-width: 200px;
+}
+
+div.login-opc{
+    display: flex;
+    font-size: 6px;
+    font-weight: 100;
+    text-transform: uppercase;
+    justify-content: center;
+    color: white;
+    border-bottom: solid 2px rgba(95, 95, 95, 0.726);
+    justify-content: space-around;
+}
+
+div.login-opc > h1{
+    margin-right: 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+input{
+    display: block;
+    margin: auto;
+}
+
+.form-user{
+    margin-top: 10px;
+}
+
+form input{
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(68, 68, 68);
+    outline: none;
+    color: white;
+}
+
+input.enviar{
+    background-color: #29ff89;
+    cursor: pointer;
+    width: 100px;
+    color: white;
+    text-shadow: 0px 0px 4px black;
+    margin-top: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+
+p{
+    margin-top: 20px;
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+    color: rgb(68, 68, 68);;
+}
+
+p:hover{
+    color: white;
+}
+
+input.enviar:hover{
+    background-color: white;
+    color: black;
+    width: 120px;
+    text-shadow: none;
+    transition: all 0.5s ease-in-out;
+}
